@@ -1,0 +1,44 @@
+# Ignore arquivos compilados e diretórios de build
+/target/
+/out/
+*.class
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignore arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore configurações de IDEs
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Ignore arquivos gerados pelo Maven
+mvnw
+mvnw.cmd
+/.mvn/
+
+# Ignore arquivos específicos do Hibernate
+hibernate.cfg.xml
+
+# Ignore arquivos de propriedades sensíveis
+application.properties
