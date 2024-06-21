@@ -1,13 +1,41 @@
 <h1 align="center">AppleStore</h1>
 
 <p align="center">
-  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="200">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="400">
 </p>
 
 ## Descrição do Projeto
 O AppleStore é um sistema de e-commerce desenvolvido como trabalho final das disciplinas de Linguagens de Programação (LP) e Programação Orientada a Objetos (POO). Foi desenvolvido com o objetivo de oferecer aos usuários uma plataforma intuitiva para navegar, visualizar e comprar produtos da Apple online.
 Proporcionando uma experiência de compra online que atenda aos padrões de qualidade da Apple, com foco na usabilidade e na segurança das transações.
 
+## Funcionalidades Telas
+
+### Tela de Login
+- Permite que usuários façam login no sistema.
+- Usuários podem optar por entrar como cliente ou administrador.
+
+### Tela de Cadastro
+- Permite que novos usuários se cadastrem no sistema.
+- Coleta informações básicas como nome, email, senha e tipo de usuário.
+
+### Tela de Administração
+- Administradores podem gerenciar produtos (adicionar, remover, atualizar).
+- Administradores podem gerenciar usuários (adicionar, remover, alterar).
+- Administradores podem visualizar todos os pedidos realizados.
+
+### Tela Vitrine
+- Exibe a lista de produtos disponíveis para compra.
+- Usuários podem adicionar produtos ao carrinho.
+- Usuários podem ver detalhes do produto (descrição, preço, estoque).
+
+### Tela Carrinho
+- Permite que os usuários visualizem os produtos adicionados ao carrinho.
+- Usuários podem alterar a quantidade de produtos ou removê-los do carrinho.
+- Exibe o total da compra.
+
+### Tela Pagamento
+- Usuários podem selecionar a forma de pagamento.
+- Exibe o resumo da compra e permite confirmar o pagamento.
 
 ## Demonstração
 <h3 align="center">Tela Login</h3>
@@ -45,21 +73,53 @@ Proporcionando uma experiência de compra online que atenda aos padrões de qual
   <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/AppleStore_Diagrama.png" alt="Diagrama ERD">
 </p>
 
-## Funcionalidades
+## Estrutura do Projeto
 
-### Usuários
-- Cadastro e login de usuários.
-- Navegação e compra de produtos.
-- Visualização e gerenciamento do carrinho de compras.
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ ├── controlador
+│ │ │ │ └── UsuarioController.java
+│ │ │ ├── dao
+│ │ │ │ ├── CarrinhoDao.java
+│ │ │ │ ├── FormaPagamentoDao.java
+│ │ │ │ ├── ItemCarrinhoDao.java
+│ │ │ │ ├── PedidoDao.java
+│ │ │ │ ├── ProdutoDao.java
+│ │ │ │ └── UsuarioDao.java
+│ │ │ ├── entidades
+│ │ │ │ ├── Carrinho.java
+│ │ │ │ ├── FormaPagamento.java
+│ │ │ │ ├── ItemCarrinho.java
+│ │ │ │ ├── Pedido.java
+│ │ │ │ ├── Produto.java
+│ │ │ │ └── Usuario.java
+│ │ │ ├── exception
+│ │ │ │ ├── DadoInvalidoException.java
+│ │ │ │ └── DadoNuloException.java
+│ │ │ ├── servico
+│ │ │ │ ├── CarrinhoService.java
+│ │ │ │ ├── FormaPagamentoService.java
+│ │ │ │ ├── PedidoService.java
+│ │ │ │ ├── ProdutoService.java
+│ │ │ │ └── UsuarioService.java
+│ │ │ ├── util
+│ │ │ │ └── HibernateUtil.java
+│ │ │ └── view
+│ │ │ ├── TelaAdmin.java
+│ │ │ ├── TelaCadastro.java
+│ │ │ ├── TelaCarrinho.java
+│ │ │ ├── TelaLogin.java
+│ │ │ ├── TelaPagamento.java
+│ │ │ └── TelaVitrine.java
+│ │ └── resources
+│ │ ├── img
+│ │ │ └── [imagens do projeto]
+│ │ └── application.properties
+├── .gitignore
+├── pom.xml
+└── README.md
 
-### Administradores
-- Adicionar, remover e atualizar produtos.
-- Gerenciar usuários (adicionar, remover, alterar).
-
-### Produtos
-- Listagem de produtos disponíveis.
-- Detalhes do produto (descrição, preço, estoque).
-- Imagem do produto.
 
 ## Tecnologias Utilizadas
 - **Java**: Linguagem de programação principal.
