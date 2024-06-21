@@ -12,25 +12,12 @@
 .DS_Store
 Thumbs.db
 
-# Ignore configurações de IDEs
-# IntelliJ
-.idea/
-*.iml
 
 # Eclipse
 .project
 .classpath
 .settings/
 
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# Visual Studio Code
-.vscode/
 
 # Ignore arquivos gerados pelo Maven
 mvnw
