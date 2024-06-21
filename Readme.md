@@ -1,7 +1,7 @@
 <h1 align="center">AppleStore</h1>
 
 <p align="center">
-  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="350">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="300">
 </p>
 
 ## Descrição do Projeto
