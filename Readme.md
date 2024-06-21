@@ -40,32 +40,32 @@ Proporcionando uma experiência de compra online que atenda aos padrões de qual
 ## Demonstração
 <h3 align="center">Tela Login</h3>
 <p align="center">
-  <img src="link-para-gif-login.gif" alt="Tela de Login">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaLogin.gif" alt="Tela de Login">
 </p>
 
 <h3 align="center">Tela Cadastro</h3>
 <p align="center">
-  <img src="link-para-gif-admin.gif" alt="Tela de Administração">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaCadastro.gif" alt="Tela de Cadastro">
 </p>
 
 <h3 align="center">Tela Vitrine</h3>
 <p align="center">
-  <img src="link-para-gif-vitrine.gif" alt="Tela Vitrine">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaVitrine.gif" alt="Tela Vitrine">
 </p>
 
 <h3 align="center">Tela Admin</h3>
 <p align="center">
-  <img src="link-para-gif-admin.gif" alt="Tela de Administração">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaAdmin.gif" alt="Tela de Administração">
 </p>
 
 <h3 align="center">Tela Carrinho</h3>
 <p align="center">
-  <img src="link-para-gif-admin.gif" alt="Tela de Administração">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaCarrinho.gif" alt="Tela Carrinho">
 </p>
 
 <h3 align="center">Tela Pagamento</h3>
 <p align="center">
-  <img src="link-para-gif-admin.gif" alt="Tela de Administração">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/TelaPagamento.gif" alt="Tela de Pagamento">
 </p>
 
 ## Diagrama ERD
