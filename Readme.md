@@ -1,7 +1,7 @@
 <h1 align="center">AppleStore</h1>
 
 <p align="center">
-  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="400">
+  <img src="https://github.com/luan-fb/E-Commerce-AppleStore/blob/main/src/main/resources/img/LogoAppleStore.png" alt="AppleStore Logo" width="350">
 </p>
 
 ## Descrição do Projeto
@@ -75,50 +75,51 @@ Proporcionando uma experiência de compra online que atenda aos padrões de qual
 
 ## Estrutura do Projeto
 
-├── src
-│ ├── main
-│ │ ├── java
-│ │ │ ├── controlador
-│ │ │ │ └── UsuarioController.java
-│ │ │ ├── dao
-│ │ │ │ ├── CarrinhoDao.java
-│ │ │ │ ├── FormaPagamentoDao.java
-│ │ │ │ ├── ItemCarrinhoDao.java
-│ │ │ │ ├── PedidoDao.java
-│ │ │ │ ├── ProdutoDao.java
-│ │ │ │ └── UsuarioDao.java
-│ │ │ ├── entidades
-│ │ │ │ ├── Carrinho.java
-│ │ │ │ ├── FormaPagamento.java
-│ │ │ │ ├── ItemCarrinho.java
-│ │ │ │ ├── Pedido.java
-│ │ │ │ ├── Produto.java
-│ │ │ │ └── Usuario.java
-│ │ │ ├── exception
-│ │ │ │ ├── DadoInvalidoException.java
-│ │ │ │ └── DadoNuloException.java
-│ │ │ ├── servico
-│ │ │ │ ├── CarrinhoService.java
-│ │ │ │ ├── FormaPagamentoService.java
-│ │ │ │ ├── PedidoService.java
-│ │ │ │ ├── ProdutoService.java
-│ │ │ │ └── UsuarioService.java
-│ │ │ ├── util
-│ │ │ │ └── HibernateUtil.java
-│ │ │ └── view
-│ │ │ ├── TelaAdmin.java
-│ │ │ ├── TelaCadastro.java
-│ │ │ ├── TelaCarrinho.java
-│ │ │ ├── TelaLogin.java
-│ │ │ ├── TelaPagamento.java
-│ │ │ └── TelaVitrine.java
-│ │ └── resources
-│ │ ├── img
-│ │ │ └── [imagens do projeto]
-│ │ └── application.properties
-├── .gitignore
-├── pom.xml
-└── README.md
+├── src                        
+│ ├── main       
+│ │ ├── java  
+│ │ │ ├── controlador   
+│ │ │ │ └── UsuarioController.java    
+│ │ │ ├── dao   
+│ │ │ │ ├── CarrinhoDao.java  
+│ │ │ │ ├── FormaPagamentoDao.java  
+│ │ │ │ ├── ItemCarrinhoDao.java   
+│ │ │ │ ├── PedidoDao.java    
+│ │ │ │ ├── ProdutoDao.java    
+│ │ │ │ └── UsuarioDao.java    
+│ │ │ ├── entidades    
+│ │ │ │ ├── Carrinho.java    
+│ │ │ │ ├── FormaPagamento.java    
+│ │ │ │ ├── ItemCarrinho.java    
+│ │ │ │ ├── Pedido.java    
+│ │ │ │ ├── Produto.java   
+│ │ │ │ └── Usuario.java    
+│ │ │ ├── exception   
+│ │ │ │ ├── DadoInvalidoException.java    
+│ │ │ │ └── DadoNuloException.java   
+│ │ │ ├── servico   
+│ │ │ │ ├── CarrinhoService.java  
+│ │ │ │ ├── FormaPagamentoService.java     
+│ │ │ │ ├── PedidoService.java   
+│ │ │ │ ├── ProdutoService.java   
+│ │ │ │ └── UsuarioService.java   
+│ │ │ ├── util   
+│ │ │ │ └── HibernateUtil.java   
+│ │ │ └── view   
+│ │ │ ├── TelaAdmin.java   
+│ │ │ ├── TelaCadastro.java   
+│ │ │ ├── TelaCarrinho.java   
+│ │ │ ├── TelaLogin.java   
+│ │ │ ├── TelaPagamento.java  
+│ │ │ └── TelaVitrine.java    
+│ │ └── resources   
+│ │ ├── img   
+│ │ │ └── [imagens do projeto]    
+│ │ └── application.properties   
+├── .gitignore   
+├── pom.xml   
+└── README.md   
+
 
 
 ## Tecnologias Utilizadas
@@ -169,6 +170,10 @@ Proporcionando uma experiência de compra online que atenda aos padrões de qual
 ## Contribuição
 Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull request com melhorias.
 
+
+## Autores
+- **[Luan Ferreira Boaventura](https://github.com/luan-fb)**
+- **[Patrick Henrique Nunes De Paula]()**
 
 ## Contato
 - **Email**: luanfboaventura@gmail.com
