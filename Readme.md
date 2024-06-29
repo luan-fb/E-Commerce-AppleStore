@@ -173,7 +173,7 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull 
 
 ## Autores
 - **[Luan Ferreira Boaventura](https://github.com/luan-fb)**
-- **[Patrick Henrique Nunes De Paula]()**
+
 
 ## Contato
 - **Email**: luanfboaventura@gmail.com
